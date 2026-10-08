@@ -17,8 +17,8 @@ const movie = {
 console.log("Title:", movie.title);
 console.log("Year:", movie.year);
 console.log("Director:", movie.director);
-console.log("Run Time:", movie.runtime > 120);
-console.log("Watched?", movie.watched);
+console.log("Runtime:", movie.runtime > 120);
+console.log("Watched:", movie.watched);
 console.log("Rating:", movie.rating);
 // TODO 1: Print the movie title
 // console.log(...)
@@ -39,3 +39,31 @@ console.log("Rating:", movie.rating);
 // console.log("Rating:", ...)
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
+
+function createStudent(name, grade, gpa) {
+    return{ 
+    name: name,
+    grade: grade,
+    gpa: gpa,
+    isHonors: gpa >= 3.5 ? true : false
+  }
+}
+
+console.log(createStudent("Alex", 11, 3.7));
+console.log(createStudent("Sam", 10, 2.9));
+console.log(createStudent("Bob", 10, 3.5));
+
+// TODO: use .find() to search by name
+  // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
+function findByName(students, targetName) {
+    const students ={
+      name: "Alex",
+      name: "Sam",
+      name: "Bob",
+    }
+
+}
+
+console.log(findByName(students, "Alex"));
+console.log(findByName(students, "Sam"));
+console.log(findByName(students, "Bob"));
