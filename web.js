@@ -1,8 +1,129 @@
-function clothing(array, brand){
-levels = [
-{id 1, name: "sdghf", price 1.0, }
+const clothing = [
+    {
+        name: "Shirt",
+        group: "Top",
+        price: 15.90,
+        image: "img",
+        popularity: 1,
+    },
+    {
+        name: "T-Shirt",
+        group: "Top",
+        price: 12.90,
+        image: "img",
+        popularity: 3,
+    },
+    {
+        name: "Jeans",
+        group: "Pants",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },
+    {
+        name: "Socks",
+        group: "Footwear",
+        price: 5.90,
+        image: "img",
+        popularity: 4,
+    },
+    {
+        name: "Flannel",
+        group: "Top",
+        price: 20.90,
+        image: "img",
+        popularity: 7,
+    },
+    {
+        name: "Sneakers",
+        group: "Footwear",
+        price: 25.90,
+        image: "img",
+        popularity: 6,
+    },
+    {
+        name: "Hoodie",
+        group: "Top",
+        price: 19.90,
+        image: "img",
+        popularity: 5,
+    },{
+        name: "Khakis",
+        group: "top",
+        price: 26.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },{
+        name: "jeans",
+        group: "top",
+        price: 22.90,
+        image: "img",
+        popularity: 2,
+    },
 ]
-
-
-
-}
