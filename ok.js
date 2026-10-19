@@ -56,14 +56,14 @@ console.log(createStudent("Bob", 10, 3.5));
 // TODO: use .find() to search by name
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
 function findByName(students, targetName) {
-    const students ={
-      name: "Alex",
-      name: "Sam",
-      name: "Bob",
-    }
+    const students = [
+  { name: "Alex", grade: 11, gpa: 3.8, isHonors: true },
+  { name: "Sam", grade: 12, gpa: 3.5, isHonors: false },
+  { name: "Bob",  grade: 10, gpa: 3.9, isHonors: true }
+    ];
 
 }
 
-console.log(findByName(students, "Alex"));
-console.log(findByName(students, "Sam"));
-console.log(findByName(students, "Bob"));
+console.log(findByName.FindIndex(students, "Alex"));
+console.log(findByName.FindIndex(students, "Sam"));
+console.log(findByName.FindIndex(students, "Bob"));

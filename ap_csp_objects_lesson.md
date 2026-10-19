@@ -104,7 +104,7 @@ students.forEach(function(student) {
 *What will this print? Write the output below:*
 
 ```
-→
+→ 
 →
 →
 ```
