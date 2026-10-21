@@ -102,7 +102,7 @@ const clothing = [
         image: "img",
         popularity: 16,
     },{
-        name: "Watch",
+        name: "Golden Watch",
         group: "Accessory",
         price: 220998.90,
         image: "img",
@@ -120,7 +120,7 @@ const clothing = [
         image: "img",
         popularity: 19,
     },{
-        name: "Scarf",
+        name: "Winter Scarf",
         group: "Accessory",
         price: 30.90,
         image: "img",
